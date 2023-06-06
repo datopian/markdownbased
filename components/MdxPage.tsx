@@ -15,14 +15,12 @@ const components = {
 
 export default function MdxPage({ source, frontMatter }) {
   const Layout = ({ children }) => {
-    if (frontMatter.layout) {
+    if (frontMatter?.layout) {
       const LayoutComponent = layouts[frontMatter.layout];
       return <LayoutComponent {...frontMatter}>{children}</LayoutComponent>;
     }
     return <>{children}</>;
   };
-
-  // const src = JSON.parse(source)
 
   return (
     <main id="mdxpage" className="prose mx-auto">
