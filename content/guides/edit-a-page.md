@@ -1,4 +1,6 @@
-# Tutorial: How to edit a single page on the Life Itself website
+---
+title: "Tutorial: How to edit a single page on the Life Itself website"
+---
 
 > ![note]
 > This is for new team members of Life Itself, not external contributors. Generalizing these instructions can easily be added later - the steps at some point will slightly diverge, i.e. instead of creating a branch they would have an option to create a fork only.
