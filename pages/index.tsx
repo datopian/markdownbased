@@ -46,7 +46,7 @@ export default function Home({ guides }) {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {guides.map(guide => (
-              <div key={guide._id} className={'ring-1 dark:ring-white/10 rounded p-8 xl:p-10'}>
+              <div key={guide.slug} className={'ring-1 dark:ring-white/10 rounded p-8 xl:p-10'}>
                 <div className="flex items-center justify-between gap-x-4">
                   <h3 className="text-lg font-medium text-center leading-8 dark:text-white">
                     {guide.title}
