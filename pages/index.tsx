@@ -1,4 +1,9 @@
-export default function Home() {
+import fs from "fs";
+import { GetStaticProps, GetStaticPropsResult } from "next";
+import clientPromise from "../lib/mddb.mjs";
+import computeFields from "../lib/computeFields";
+
+export default function Home({ guides }) {
   return (
     <>
       <div className="dark:bg-background rounded-xl">
@@ -40,16 +45,16 @@ export default function Home() {
       <div className="py-24 mt-12">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {["Edit Lifeitself.org", "Create a catalog of stuff", "Publish a catalog"].map(guide => (
-              <div key={guide} className={'ring-1 dark:ring-white/10 rounded p-8 xl:p-10'}>
+            {guides.map(guide => (
+              <div key={guide._id} className={'ring-1 dark:ring-white/10 rounded p-8 xl:p-10'}>
                 <div className="flex items-center justify-between gap-x-4">
                   <h3 className="text-lg font-medium text-center leading-8 dark:text-white">
-                    {guide}
+                    {guide.title}
                   </h3>
                 </div>
                 <p className="mt-4 text-sm leading-6 dark:text-gray-300"></p>
                 <a
-                  href="#"
+                  href={guide.urlPath}
                   className={'bg-background-dark/20 dark:bg-white/10 dark:text-white hover:bg-background-dark/30 dark:hover:bg-white/20 focus-visible:outline-white mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2'}
                 >
                   Read the guide
@@ -62,3 +67,29 @@ export default function Home() {
     </>
   )
 }
+
+export const getStaticProps: GetStaticProps = async (): Promise<
+  GetStaticPropsResult<any> // TODO add types
+> => {
+  const mddb = await clientPromise;
+  const guides = await mddb.getFiles({ folder: "guides" });
+  const guidessMetadataPromises = guides.map(async (guide) => {
+    const source = fs.readFileSync(guide.file_path, { encoding: "utf-8" });
+
+    // TODO temporary replacement for contentlayer's computedFields
+    const frontMatterWithComputedFields = await computeFields({
+      frontMatter: guide.metadata,
+      urlPath: guide.url_path,
+      filePath: guide.file_path,
+      source,
+    });
+
+    return frontMatterWithComputedFields;
+  });
+
+  const guidesList = await Promise.all(guidessMetadataPromises);
+
+  return {
+    props: { guides: guidesList },
+  };
+};
