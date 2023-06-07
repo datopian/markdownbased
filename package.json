@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "prebuild": "npm run generate",
     "start": "next start",
     "export": "npm run build && next export",
     "mddb": "mddb ./content",
