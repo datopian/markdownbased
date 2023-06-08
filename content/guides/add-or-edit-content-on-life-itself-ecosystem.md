@@ -1,5 +1,5 @@
 ---
-title: "How to add or edit content on the Life Itself ecosystem page"
+title: How to add or edit content on the Life Itself ecosystem page
 ---
 
 ## Contents

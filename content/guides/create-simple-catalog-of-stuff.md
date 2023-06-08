@@ -4,7 +4,7 @@ title: How to create a catalog of anything using markdown files and free tools?
 
 ![Tutorial Gif](/assets/dataview.gif)
 
-Have you ever wanted to create a catalog of stuff? Maybe it's a list of personal projects, maybe favorite books or movies, or perhaps the options for the next smartphone you'll buy. But you've found yourself deterred by expensive software, lack of flexibility in capturing and modifying the structure of the data, or lack of control over it?
+Have you ever wanted to create a catalog of stuff? Maybe it's a list of personal projects, maybe favourite books or movies, or perhaps the options for the next smartphone you'll buy. But you've found yourself deterred by expensive software, lack of flexibility in capturing and modifying the structure of the data, or lack of control over it?
 
 Markdown files, with their unique combination of 1) rich content, including text, images, links, and more, with 2) structured metadata allowing for data retrieval, are an excellent tool for this task. These features, coupled with the user-friendly interface of Obsidian and the analytical power of the Dataview plugin, make creating a data catalog an easy task. And it's free!
 
@@ -95,7 +95,7 @@ Harry Potter Characters
 
 Now let's create a data catalog of our Harry Potter characters!
 
-In the root of our vault, let's create a file called `Catalog` that's going to display a table with all our characters and their metadata. Inside it, we're going to write the following code block with a simple Dataview query:
+In the root of our vault, let's create a file called `Catalog` (but you can name it whatever you want) that's going to display a table with all our characters and their metadata. Inside it, we're going to write the following code block with a simple Dataview query:
 
 ````md
 ```dataview
@@ -113,7 +113,7 @@ Let's break it down:
 
 After you click somewhere outside of this code block, you should see the following table:
 
-![Table](/assets/table1.png)
+![Table](table1.png)
 
 ## Step 4: Add more metadata about characters
 
@@ -151,7 +151,7 @@ sort name asc
 
 After clicking somewhere outside the code block, you should see an updated table that includes the column `creature`.
 
-![Table](/assets/table2.png)
+![Table](table2.png)
 
 ## Step 5: Enrich content with images and links
 
@@ -159,7 +159,11 @@ To enhance your catalog, you can add images of characters, and links to other ch
 
 #### Add images
 
-To add an image of a character, you can just copy it to clipboard and paste it directly in your markdown file. Obsidian will automatically save the file to the root of your vault and create a link to it in your content, so you'll end up with a link like this one:
+To add an image of a character, right-click on the image you want to embed and copy it to clipboard - you can use the image below - and paste it directly in your markdown file.
+
+![[harry_original.png]]
+
+Obsidian will automatically save the file to the root of your vault and create a link to it in your content, so you'll end up with a link similar to this one:
 
 ```md
 ![[Pasted image 20230525212302.png]]
@@ -167,7 +171,7 @@ To add an image of a character, you can just copy it to clipboard and paste it d
 
 Which will render as:
 
-![](/assets/harry.png)
+![](harry.png)
 
 #### Add links to other pages
 
@@ -181,7 +185,7 @@ He is a friend of [[Hermione]].
 
 When you click on Hermione's name in the rendered link, Obsidian will take you to Hermione's file in your vault. If you hover over it, you'll see a preview of Hermione's file:
 
-![Link preview](/assets/link-preview.png)
+![Link preview](link-preview.png)
 
 ## Summary
 
