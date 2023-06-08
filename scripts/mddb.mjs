@@ -3,7 +3,7 @@
 import clientPromise from "../lib/mddb.mjs";
 
 export default async function mddb() {
-  const ignorePatterns = [/Excalidraw/, /.obsidian/, /DS_Store/];
+  const ignorePatterns = [/Excalidraw/, /\.obsidian/, /DS_Store/];
 
   const mddb = await clientPromise;
 
