@@ -1,5 +1,5 @@
 ---
-Title: How to add a single (simple markdown) page
+title: How to add a single (simple markdown) page
 ---
 Welcome to the How to add a simple page on the Life Itself website for new team members: 
 
