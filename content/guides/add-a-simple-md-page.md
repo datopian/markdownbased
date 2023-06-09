@@ -25,7 +25,9 @@ Remember, the content of the web pages in these How to's are written in Markdown
 
 5. Preview
 
-The following steps are the same as from the [Edit a single page how to](link)                                               
+> ![tip] **Preview your changes**
+> You can switch to the "Preview" mode of the file by toggling from "Edit" -> "Preview" at the top of the file content, to see a rough visualization of your changes. Keep in mind, that the actual website may have different styling and may support additional Markdown elements that GitHub doesn't render on the preview. But if the syntax is listed in the above guide, it is good to use.
+                                         
 ### Step 2: Save your changes
 
 When you're happy with your edits, click on the “Commit changes” button. In the "Commit message" field, provide a concise summary of your changes. If necessary, you can add further explanation in the "Extended description" text field. Then select “Commit directly to the main branch”.
