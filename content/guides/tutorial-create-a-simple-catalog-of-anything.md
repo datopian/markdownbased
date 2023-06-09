@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Create a catalog of anything using Markdown files in Obsidian
+title: Tutorial - Create a catalog of anything using Markdown files in Obsidian
 ---
 
 ![Tutorial Gif](/assets/dataview.gif)
