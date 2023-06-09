@@ -9,6 +9,8 @@ This How to is only recommended for very simple Markdown pages, e.g. those witho
 
 If you are planning to link to other pages from this page, embedding images and other interlinking actions, we recommend doing this locally in Obsidian, a Markdown editor. For how to do this you can view [this guide](details to be added)
 
+Remember, the content of the web pages in these How to's are written in Markdown. If you are unfamiliar with Markdown, check out [this short guide](https://flowershow.app/docs/syntax) on available syntax elements.
+
 ## Steps
   
 ### Step 1  : Create the new page
