@@ -5,7 +5,7 @@ Welcome to the How to quickly add a simple Markdown-based page for contributors 
 
 This guide is designed for non-technical contributors; there's no need to know how to code. 
 
-This Howto is only recommended for very simple Markdown pages, e.g. those without images, links to other pages, diagrams, or other elements that don't render in GitHub preview mode. 
+This How to is only recommended for very simple Markdown pages, e.g. those without images, links to other pages, diagrams, or other elements that don't render in GitHub preview mode. 
 
 If you are planning to link to other pages from this page, embedding images and other interlinking actions, we recommend doing this locally in Obsidian, a Markdown editor. For how to do this you can view [this guide](details to be added)
 
