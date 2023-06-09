@@ -28,6 +28,7 @@ If the "Edit this page" button is unavailable, or if you're looking to familiari
 3. Navigate through the subfolders within the `content` folder to find the file corresponding to the page you wish to edit.
 
 > ![tip] To know exactly which file to look for, consider the URL of the page on the website. The URL should correspond to the path of the file in the repository, without the '/content' prefix.
+> If you can't find the corresponding markdown file in the repository, it may have been written in JSX instead of MD. For JSX you would need to know frontend programming, in which case submit an issue to your repository for the editing to be completed.
 
 4. Once you've found the correct file, click on it to see its contents.
 
