@@ -15,3 +15,23 @@ A Vercel account on https://vercel.com/. To set one up click on Sign Up in the r
 
 ### Step 2
 
+Go to ??? - link to be updated??
+https://github.com/datopian/flowershow-template
+
+At the bottom of the page there will be a Deploy button - click on this to be redirected to Vercel and log in using your account.
+
+Once you have logged in, you will be redirected to the Create GitHub Repository page
+
+Here you will see a ‘Git Scope’, click the drop down and add your own account instead. In the right hand box create a name for the repository - the usual format is all lower case with hyphens in between words. Then select the Create button.
+
+The website will then be deployed. This takes approximately 1 minute.
+
+Once on the Congratulations screen, select the ‘Continue to the dashboard’ button on the right-hand side.
+
+This will load your page with the newly entered Repository Name at the top and Production Deployment underneath. From here click on the Git Repository button on the right hand side.
+
+This will load your Github Sandbox Interface. Now we can practice editing!
+
+For instructions on how to add and edit pages, we recommend these tutorials:
+- [How to add a simple markdown page](https://guide.portaljs.org/guides/add-a-simple-md-page)
+- [How to edit text on a single page](https://guide.portaljs.org/guides/edit-text-on-a-single-page)
