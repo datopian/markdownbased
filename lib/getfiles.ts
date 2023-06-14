@@ -2,9 +2,10 @@ import fs from "fs";
 import clientPromise from "./mddb.mjs";
 import computeFields from "./computeFields";
 
-export async function getMdFiles(folder?:string) {
+export async function getMdFiles(folder?: string) {
   const mddb = await clientPromise
-  const files = await mddb.getFiles({ folder, extensions: ["md","mdx"] })
+  const allFiles = await mddb.getFiles({ folder, extensions: ["md", "mdx"] })
+  const files = allFiles.filter(file => !file.metadata.isDraft)
   // const files = await mddb.getFiles({ folder });
   const filesMetadataPromises = files.map(async (file) => {
     const source = fs.readFileSync(file.file_path, { encoding: "utf-8" });
