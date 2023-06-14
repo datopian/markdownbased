@@ -1,5 +1,5 @@
 ---
-title: Tutorial - Create a catalog of anything using Markdown files in Obsidian
+title: Create a catalog of anything using Markdown files in Obsidian
 ---
 
 ![Tutorial Gif](/assets/dataview.gif)
@@ -22,7 +22,7 @@ Here are the steps to get you started:
 2. Create a new Obsidian vault.
    1. Open the app.
    2. Click the "New" button to create a new vault.
-   3. Choose a name and location for your vault. For this tutorial, you might name it "Harry Potter Characters".
+   3. Choose a name and a location for your vault. For this tutorial, you might name it "Harry Potter Characters".
    4. Click "Create" to create the vault.
 3. Install the ["Dataview" plugin](https://github.com/blacksmithgu/obsidian-dataview) from Obsidian's community plugins.
    1. Open the newly created vault in Obsidian.
@@ -113,7 +113,7 @@ Let's break it down:
 
 After you click somewhere outside of this code block, you should see the following table:
 
-![Table](table1.png)
+![[table1.png]]
 
 ## Step 4: Add more metadata about characters
 
@@ -151,7 +151,7 @@ sort name asc
 
 After clicking somewhere outside the code block, you should see an updated table that includes the column `creature`.
 
-![Table](table2.png)
+![[table2.png]]
 
 ## Step 5: Enrich content with images and links
 
@@ -171,7 +171,7 @@ Obsidian will automatically save the file to the root of your vault and create a
 
 Which will render as:
 
-![](harry.png)
+![[harry.png]]
 
 #### Add links to other pages
 
@@ -185,7 +185,7 @@ He is a friend of [[Hermione]].
 
 When you click on Hermione's name in the rendered link, Obsidian will take you to Hermione's file in your vault. If you hover over it, you'll see a preview of Hermione's file:
 
-![Link preview](link-preview.png)
+![[link-preview.png]]
 
 ## Summary
 
