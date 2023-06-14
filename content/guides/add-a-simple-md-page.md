@@ -1,43 +1,33 @@
 ---
 title: How to quickly add a simple Markdown-based page
 ---
-Welcome to the How to quickly add a simple Markdown-based page for contributors and creators using github, obsidian, flowershow and markdown to create their websites. 
 
-This guide is designed for non-technical contributors; there's no need to know how to code. 
+Welcome to this tutorial on how to quickly add a simple Markdown-based page to your website.  The steps here are designed for non-technical contributors. There's no need to know how to code!
 
-This How to is only recommended for very simple Markdown pages, e.g. those without images, links to other pages, diagrams, or other elements that don't render in GitHub preview mode. 
+> [!important]
+> This "How to" is only recommended for very simple Markdown pages, e.g. those without images, links to other pages, diagrams, or other elements that can't be previewed in GitHub preview mode. 
 
-If you are planning to link to other pages from this page, embedding images and other interlinking actions, we recommend doing this locally in Obsidian, a Markdown editor. For how to do this you can view [this guide](details to be added)
-
-Remember, the content of the web pages in these How to's are written in Markdown. If you are unfamiliar with Markdown, check out [this short guide](https://flowershow.app/docs/syntax) on available syntax elements.
+>[!tip]
+> If you are unfamiliar with Markdown (and its different flavours and extra elements supported by Flowershow based websites), check out [this short guide](https://flowershow.app/docs/syntax) on available syntax elements.
 
 ## Steps
-  
-### Step 1  : Create the new page
 
-1. Go to the location of the website repository in github and into the 'codes' section
+1. Go to the repository of your website in GitHub.
+2. Click on the `content` folder to open it. This is where all the Markdown files for a Flowershow-based website are stored.
+3. Optionally, navigate to a subfolder where you want to add your page.
+4. Click “Add file” and write the page name + extension `.md`, e.g. `my-new-page.md`.
 
-2. Find and click on the `content` folder to open it. This is where all the Markdown files for the website content are stored and where you will be adding your file (page). If you need to add this within a subfolder in the content folder, find this folder and click on this as well.
+> [!tip]
+> If you want to add your page to a new subfolder, in the "Name your file..." field, first type the name of the new subfolder, followed by a forward slash, .e.g., `blog/`. After you hit the slash, you'll see the name field gets cleared, but the path before it has been extended with your subfolder name. You can repeat this process if you want to put your file into further nested subfolders. Then, simply type the name of the file with ".md" extension.
 
-3. Click “Add file”, add the page name + extension .md i.e. new-page-name.md
-
-4. Paste or write the file using the md layout 
-
-5. Preview
-
-> ![tip] **Preview your changes**
-> You can switch to the "Preview" mode of the file by toggling from "Edit" -> "Preview" at the top of the file content, to see a rough visualization of your changes. Keep in mind, that the actual website may have different styling and may support additional Markdown elements that GitHub doesn't render on the preview. But if the syntax is listed in the above guide, it is good to use.
-                                         
-### Step 2: Save your changes
-
-When you're happy with your edits, click on the “Commit changes” button. In the "Commit message" field, provide a concise summary of your changes. If necessary, you can add further explanation in the "Extended description" text field. Then select “Commit directly to the main branch”.
-
-### Step 3: See your changes live
-
-After committing your changes, these should be pushed through to the main site.
+5. Paste or write the contents of the file in Markdown format. 
+6. (Optionally) Switch to the "Preview" mode, by toggling from "Edit" -> "Preview" at the top of the file content, to see a rough visualisation of your changes. Keep in mind though, that the actual website may have different styling and may support additional Markdown elements that GitHub doesn't render on the preview.
+5. When you're happy with the content, click on the “Commit changes...” button. In the "Commit message" field, provide a concise summary of your changes. If necessary, you can add further explanation in the "Extended description" text field. Then select “Commit directly to the main branch”, and hit "Commit changes."
+6. The site is now going to be rebuilt to reflect the changes saved to the `main` branch. This can take up to a few minutes. After this time you should see your page live.
 
 ## Summary
-Congratulations, you've now learned how to create a new page on your website. 
+
+Congratulations, you've now learned how to create a new Markdown page on your Flowershow-based website. 
 
 If anything is not clear to you, or you have suggestions on how we can make this 'How to' better, please don't hesitate to let us know. 
 
