@@ -19,36 +19,36 @@ export default function Page({ source, meta }: SlugPageProps) {
     const src = source && JSON.parse(source)
 
     const seoImages = (() => {
-      // if page has specific image set
-      if (meta?.image) {
-        return [
-          {
-            url: meta.image.startsWith("http")
-                ? meta.image
-                : `${siteConfig.domain}${meta.image}`,
-            width: 1200,
-            height: 627,
-            alt: meta.title,
-          },
-        ];
-      }
-      // otherwise return default images array set in config file
-      return siteConfig.nextSeo?.openGraph?.images || [];
+        // if page has specific image set
+        if (meta?.image) {
+            return [
+                {
+                    url: meta.image.startsWith("http")
+                        ? meta.image
+                        : `${siteConfig.domain}${meta.image}`,
+                    width: 1200,
+                    height: 627,
+                    alt: meta.title,
+                },
+            ];
+        }
+        // otherwise return default images array set in config file
+        return siteConfig.nextSeo?.openGraph?.images || [];
     })();
 
     return (
-      <>
-        <NextSeo
-          title={meta?.title}
-          description={meta?.description}
-          openGraph={{
-            title: meta?.title,
-              description: meta?.description,
-              images: seoImages,
-          }}
-        />
-        <MdxPage source={src} frontMatter={meta} />
-      </>
+        <>
+            <NextSeo
+                title={meta?.title}
+                description={meta?.description}
+                openGraph={{
+                    title: meta?.title,
+                    description: meta?.description,
+                    images: seoImages,
+                }}
+            />
+            <MdxPage source={src} frontMatter={meta} />
+        </>
     );
 }
 
@@ -59,7 +59,7 @@ export const getStaticProps: GetStaticProps = async ({
 
     const mddb = await clientPromise;
     const dbFile = await mddb.getFileByUrl(urlPath);
-    
+
     const filePath = !dbFile.metadata?.isDraft && dbFile!.file_path;
     const frontMatter = (!dbFile.metadata?.isDraft && dbFile!.metadata) ?? {};
 
@@ -68,28 +68,28 @@ export const getStaticProps: GetStaticProps = async ({
 
     // TODO temporary replacement for contentlayer's computedFields
     const frontMatterWithComputedFields = await computeFields({
-      frontMatter,
-      urlPath,
-      filePath,
-      source,
+        frontMatter,
+        urlPath,
+        filePath,
+        source,
     });
 
     const siteMap: Array<NavGroup | NavItem> = [];
 
     if (frontMatterWithComputedFields?.showSidebar) {
-      const allPages = await mddb.getFiles({ extensions: ["md", "mdx"] });
-      const pages = allPages.filter((p) => !p.metadata?.isDraft);
-      pages.forEach((page) => {
-          addPageToSitemap(page, siteMap);
-      });
+        const allPages = await mddb.getFiles({ extensions: ["md", "mdx"] });
+        const pages = allPages.filter((p) => !p.metadata?.isDraft);
+        pages.forEach((page) => {
+            addPageToSitemap(page, siteMap);
+        });
     }
 
     return {
-      props: {
-        source: JSON.stringify(mdxSource),
-        meta: frontMatterWithComputedFields,
-        siteMap,
-      },
+        props: {
+            source: JSON.stringify(mdxSource),
+            meta: frontMatterWithComputedFields,
+            siteMap,
+        },
     };
 };
 
@@ -98,11 +98,11 @@ export const getStaticPaths: GetStaticPaths = async () => {
     const allDocuments = await mddb.getFiles({ extensions: ["md", "mdx"] });
 
     const paths = allDocuments.filter((page) => !page.metadata?.isDraft)
-      .map((page) => {
-        const url = decodeURI(page.url_path);
-        const parts = url.split("/");
-        return { params: { slug: parts } };
-      });
+        .map((page) => {
+            const url = decodeURI(page.url_path);
+            const parts = url.split("/");
+            return { params: { slug: parts } };
+        });
 
     return {
         paths,
@@ -142,7 +142,7 @@ function addPageToSitemap(page: any, sitemap: Array<NavGroup | NavItem>) {
         for (let level = 0; level <= nestingLevel; level++) {
             if (level === nestingLevel) {
                 currArray.push({
-                    name: urlParts[level],
+                    name: page.metadata?.title || urlParts[level],
                     href: page.url_path,
                 });
                 continue;
