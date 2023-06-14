@@ -1,3 +1,4 @@
 export default {
-  title: "The Guide"
+  title: "The Guide",
+  showSidebar: true
 };
