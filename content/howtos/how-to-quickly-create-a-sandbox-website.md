@@ -6,7 +6,6 @@ By the end of this guide you will have a working markdown site you can edit, whi
 
 ## Prerequisites
 
-For this you will need the following:
 
 A GitHub account on https://github.com/signup. If you don’t have one, click the link to create it.
 
