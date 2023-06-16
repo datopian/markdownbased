@@ -15,7 +15,7 @@ Go to https://github.com/datopian/flowershow
 
 At the bottom of the page there is a "Deploy" button - click on this to be redirected to Vercel and log in using your account.
 
-Once you have logged in, you will be redirected to the "Create GitHub Repository" page
+3. Once you have logged in, you will be redirected to the "Create GitHub Repository" page.
 
 Here you will see a ‘Git Scope’, click the drop down and add your own account, or select it from the list. In the right hand box create a name for the repository - the usual format is all lower case with hyphens in between words. Then select the Create button.
 
