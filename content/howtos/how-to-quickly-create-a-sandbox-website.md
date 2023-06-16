@@ -17,7 +17,8 @@ At the bottom of the page there is a "Deploy" button - click on this to be redir
 
 3. Once you have logged in, you will be redirected to the "Create GitHub Repository" page.
 
-Here you will see a ‘Git Scope’, click the drop down and add your own account, or select it from the list. In the right hand box create a name for the repository - the usual format is all lower case with hyphens in between words. Then select the Create button.
+4. Select your GitHub account from the "Git Scope" drop-down. If it's not there, click on "Add GitHub Account" to add it.
+5. In the right-hand box write a name for the repository. The usual format is all lowercase with hyphens in between words. Then click on the "Create" button.
 
 If you've signed up to Vercel using GitHub account, you'll see "Git scope" and the field for the repo name. But if you've signed up using email, you'll see this first:
 
