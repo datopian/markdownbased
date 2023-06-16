@@ -6,7 +6,6 @@ By the end of this guide you will have a working markdown site you can edit, whi
 
 ## Prerequisites
 
-
 - A GitHub account. If you don’t have one, click [here](https://github.com/signup) to create it.
 - A Vercel account. If you don't have one, click [here](https://vercel.com/signup) to create it. Ideally, sign up using your Github account or you can choose to sign up with your email.
 
