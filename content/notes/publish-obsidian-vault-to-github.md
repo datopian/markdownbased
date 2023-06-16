@@ -2,7 +2,11 @@
 title: How to push an Obsidian vault to a GitHub repository
 ---
 
-1. Setting Up GitHub Desktop and GitHub Repository
+Welcome to this tutorial on how to push an Obsidian vault to a Github repository!
+
+## Steps
+
+### Step 1: Setting Up GitHub Desktop and GitHub Repository
 
 1.1. If you haven't already done so, create a GitHub account at https://github.com
 
@@ -10,9 +14,9 @@ title: How to push an Obsidian vault to a GitHub repository
 
 1.3. Once installed, open the GitHub Desktop app. You'll be prompted to sign in with your GitHub account.
 
-2. Setting Up Your Vault as a GitHub Repository
+### Step 2: Setting Up Your Vault as a GitHub Repository
 
-2.1. Click on "File" in the top-left corner, then select "Add local repository...".
+2.1. Click on "Add an Existing Repository from your Hard Drive"
 
 2.2. Navigate to your Obsidian vault's folder using the file explorer.
 
@@ -28,7 +32,7 @@ title: How to push an Obsidian vault to a GitHub repository
 
 2.8. Click on "Create Repository".
 
-3. Pushing Your Vault to GitHub
+### Step 3: Pushing Your Vault to GitHub
 
 3.1. You'll see a dashboard with the heading "No local changes". Below you'll see a suggestion with a button "Publish repository". Click on it. (You could also use "Publish repository" button in the top application bar.) 
 
@@ -47,6 +51,13 @@ Whenever you make changes to your Obsidian vault and you want to update those ch
 
 > Here we should add a link to another How to, explaining the process of publishing changes made in the repo.
 
+## Summary
+
+Congratulations, you've now learned how to push an Obsidian vault to your Github repository. 
+
+If anything is not clear to you, or you have suggestions on how we can make this 'How to' better, please don't hesitate to let us know. 
+
+Happy editing!
 
 
 
