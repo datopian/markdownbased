@@ -4,9 +4,7 @@ title: How to quickly create a sandbox website
 
 By the end of this guide you will have a working markdown site you can edit, which gets published automatically online 🎉
 
-## Steps
-
-### Step 1
+## Prerequisites
 
 For this you will need the following:
 
