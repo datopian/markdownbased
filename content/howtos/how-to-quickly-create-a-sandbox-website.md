@@ -8,7 +8,7 @@ By the end of this guide you will have a working markdown site you can edit, whi
 
 
 - A GitHub account. If you don’t have one, click [here](https://github.com/signup) to create it.
-A Vercel account on https://vercel.com/signup. Ideally sign up using your Github account or you can choose to sign up with your email. This will create your Sandbox.
+- A Vercel account. If you don't have one, click [here](https://vercel.com/signup) to create it. Ideally, sign up using your Github account or you can choose to sign up with your email.
 
 ### Step 2
 
