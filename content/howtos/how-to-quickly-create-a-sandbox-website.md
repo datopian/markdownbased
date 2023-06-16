@@ -11,9 +11,9 @@ By the end of this guide you will have a working markdown site you can edit, whi
 
 ## Sandbox setup
 
-Go to https://github.com/datopian/flowershow
+1. Go to https://github.com/datopian/flowershow
 
-At the bottom of the page there is a "Deploy" button - click on this to be redirected to Vercel and log in using your account.
+2. At the bottom of the page there is a "Deploy" button - click on this to be redirected to Vercel and log in using your account.
 
 3. Once you have logged in, you will be redirected to the "Create GitHub Repository" page.
 
