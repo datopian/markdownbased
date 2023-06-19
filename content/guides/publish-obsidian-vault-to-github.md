@@ -2,7 +2,13 @@
 title: How to push an Obsidian vault to a GitHub repository
 ---
 
-Welcome to this tutorial on how to push an Obsidian vault to a Github repository!
+This howto walks you through the process of setting up your Obsidian vault as a GitHub repository. Here are some of the benefits of doing so:
+
+1. Creating a backup of your notes, accessible from anywhere.
+2. Keeping track of your note-taking history, thereby enabling you to see the evolution of your ideas over time.
+3. Collaborating with others on your notes.
+
+In this howto, we will use the GitHub Desktop application, an easy-to-use interface for managing your Git repositories locally and on GitHub. This tool is particularly useful if you're not comfortable with Git's command line interface or if you just prefer a more visual representation of your Git operations.
 
 ## Steps
 
