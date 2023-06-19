@@ -1,21 +1,23 @@
-# How to edit or add Markdown-based pages locally on your computer
+---
+title: How to edit or add Markdown-based pages locally on your computer
+---
 
 ## Intro
-In this How to, you will learn how to edit or add Markdown based pages locally on your computer. This offers a range of unique functions, including the ability to automatically link to other pages as well as a simple way to preview the site.
 
+In this How to, you will learn how to edit or add Markdown based pages locally on your computer. This offers a range of unique functions, including the ability to automatically link to other pages as well as a simple way to preview the site.
 
 ## Prerequisites
 
 - A github account
 - A github desktop app
 - Obsidian
-  
+
 ## Steps
 
 ### Step 1: Clone the GitHub repository to your local machine
 
 1.1. Go to https://github.com/ and navigate to the repository you want to clone.
-1.2. Click the "<> Code" button, then copy the URL shown under "HTTPS" tab.
+1.2. Click the `<> Code` button, then copy the URL shown under "HTTPS" tab.
 1.3. Open GitHub Desktop app.
 1.4. Click on "File" in the menu bar, then select "Clone repository...".
 1.5. In the popup, select the URL tab and paste the URL you just copied. Then, specify a local path where you want the files to be saved.
@@ -35,6 +37,7 @@ In this How to, you will learn how to edit or add Markdown based pages locally o
 ### Step 4: Editing or adding content to your markdown file
 
 Some links here on editing on obsidian?
+
 - Another link on markdown formatting?
 
 Optional steps to test locally? I.e. npm install, npm run dev.
@@ -46,14 +49,10 @@ Optional steps to test locally? I.e. npm install, npm run dev.
 5.3 Write a short summary, explaining the changes you've made
 5.4 Press commit to main
 
-### Summary 
+### Summary
+
 Congratulations, you've now learned how to edit or add Markdown-based pages locally on your computer!
 
-If anything is not clear to you, or you have suggestions on how we can make this 'How to' better, please don't hesitate to let us know. 
+If anything is not clear to you, or you have suggestions on how we can make this 'How to' better, please don't hesitate to let us know.
 
 Happy editing!
-
-
-
-
-
