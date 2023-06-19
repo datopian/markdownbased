@@ -1,6 +1,7 @@
 ---
-Title: How to quickly create a sandbox website
+title: How to quickly create a sandbox website
 ---
+
 By the end the end of this guide you will have set up a sandbox site to practice editing and publishing before working on any live site 🎉
 
 ## Steps
@@ -15,10 +16,9 @@ A Vercel account on https://vercel.com/. To set one up click on Sign Up in the r
 
 ### Step 2
 
-Go to ??? - link to be updated??
-https://github.com/datopian/flowershow-template
+Go to https://github.com/datopian/flowershow
 
-At the bottom of the page there will be a Deploy button - click on this to be redirected to Vercel and log in using your account.
+At the bottom of the page there is a "Deploy" button - click on this to be redirected to Vercel and log in using your account.
 
 Once you have logged in, you will be redirected to the Create GitHub Repository page
 
@@ -33,5 +33,6 @@ This will load your page with the newly entered Repository Name at the top and P
 This will load your Github Sandbox Interface. Now we can practice editing!
 
 For instructions on how to add and edit pages, we recommend these tutorials:
-- [How to add a simple markdown page](https://guide.portaljs.org/guides/add-a-simple-md-page)
-- [How to edit text on a single page](https://guide.portaljs.org/guides/edit-text-on-a-single-page)
+
+- [[edit-a-page-with-code-editor-or-obsidian|How to edit text content on a single Markdown-based page]]
+- [[add-a-simple-md-page|How to add a simple Markdown-based page]]
