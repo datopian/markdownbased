@@ -12,32 +12,15 @@ By the end of this guide you will have a working markdown site you can edit, whi
 ## Sandbox setup
 
 1. Go to https://github.com/datopian/flowershow
-
 2. At the bottom of the page there is a "Deploy" button - click on this to be redirected to Vercel and log in using your account.
-
 3. Once you have logged in, you will be redirected to the "Create GitHub Repository" page.
-   ![] If you've signed up to Vercel using a GitHub account, you'll see "Git scope" and the field for the repo name. But if you've signed up using email, you'll see this first: INSERT IMAGE ![[name-of-the-file.png]]
-   You need to select github and possibly login to your GitHub account.
-
-4. Select your GitHub account from the "Git Scope" drop-down. If it's not there, click on "Add GitHub Account" to add it.
-
-If you've signed up to Vercel using GitHub account, you'll see "Git scope" and the field for the repo name. But if you've signed up using email, you'll see this first:
-
-INSERT IMAGE
-
-5. In the right-hand box write a name for the repository. The usual format is all lowercase with hyphens in between words. Then click on the "Create" button.
+4. If you've signed up to Vercel with your GitHub account, you'll see "Git scope" and the field for the repo name. But if you've signed up using email, you'll see different buttons, like "GitHub", "Bitbucket", "GitLab". You need to select GitHub and possibly login to your GitHub account.
+5. Select your GitHub account from the "Git Scope" drop-down. If it's not there, click on "Add GitHub Account" to add it.
+6. In the right-hand box write a name for the repository. The usual format is all lowercase with hyphens in between words. Then click on the "Create" button.
 
 The website will then be deployed. This takes approximately 1 minute.
 
 Once you are on the Congratulations screen, click on the preview of your sandbox website to see the live/published version.
-
-Or, you can select the ‘Continue to the dashboard’ button on the right-hand side.
-
-This will load your page with the newly entered Repository Name at the top and Production Deployment underneath.
-
-From here click on the Git Repository button on the right hand side.
-
-This will load your Github Sandbox Interface. Now we can practice editing!
 
 For instructions on how to add and edit pages, we recommend these tutorials:
 
