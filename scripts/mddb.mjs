@@ -1,4 +1,4 @@
-// TODO temporary (?) file, cuz mddb command of @flowershow/markdowndb wouldn't work on Netlify
+// TODO temporary (?) file, cuz mddb command of mddb package wouldn't work on Netlify
 
 import clientPromise from "../lib/mddb.mjs";
 
