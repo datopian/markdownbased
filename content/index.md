@@ -1,7 +1,9 @@
-# Markdown-based Websites
+---
+showToc: false
+showSidebar: false
+---
 
-## Create markdown-based website, update it, add collaborators and discover markdown superpowers
-
+<Hero title="Markdown-based Websites" subtitle="Create markdown-based website, update it, add collaborators and discover markdown superpowers" />
 
 # Tutorial 1: Create a website from scratch using markdown and PortalJS
 
